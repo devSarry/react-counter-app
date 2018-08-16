@@ -1,0 +1,22 @@
+ol {
+    height: 20px;
+    padding: 1em 0;
+}
+
+ol li {
+    display: inline-block;
+    height: 6vw;
+    border: 7px solid;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+
+ol li:nth-child(5n) {
+    transform: rotate(293deg);
+    height: 7vw;
+    position: relative;
+    left: -56px;
+    top: 9px;
+    margin-right: 1em;
+    margin-top: -20px;
+}
